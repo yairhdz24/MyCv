@@ -1,0 +1,79 @@
+/* Estilos generales */
+body {
+  font-family: "Poppins", sans-serif;
+  color: #000;
+  margin: 0;
+}
+
+/* Estilos de las filas */
+.row {
+  display: flex;
+  width: 100%; /* Ocupa todo el ancho disponible */
+}
+
+/* Estilos de las columnas (lado izquierdo y derecho) */
+.left-column,
+.right-column {
+  flex: 1; /* Ocupa el 50% del espacio disponible, ya que hay dos columnas en cada fila */
+  padding: 40px;
+}
+
+.left-column {
+  background-color: #f0eff4;
+}
+.right-column {
+  background-color: #37393a;
+  width: 550px;
+  color: #ffffff;
+}
+
+.right-column li {
+  color: #ffffff;
+}
+
+.top-profile {
+  background-color: #acecf7;
+}
+
+.profile {
+  display: flex;
+  align-items: center; /* Centra verticalmente los elementos en la fila */
+  margin-left: 30px;
+}
+
+.profile img {
+  border-radius: 50%;
+  border: 8px solid #31c4c9;
+  height: 250px;
+  width: auto;
+  margin-left: 150px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.profile h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 60px;
+  margin: 0;
+  margin-left: 60px; 
+}
+
+.right-column h2 {
+  color: #5ddcfffe;
+}
+
+.skills ul {
+  list-style-type: none;
+}
+
+.skills li {
+  font-size: medium;
+}
+
+.skill-bar {
+  height: 10px;
+  background-color: #52e3f6;
+  border-radius: 60px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
